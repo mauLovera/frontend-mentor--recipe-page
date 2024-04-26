@@ -117,8 +117,10 @@ body {
 	}
 
 	.preperation {
-		padding-block: 52px;
-
+		background-color: var(--neutral-rose-white);
+		border-radius: calc(var(--border-radius) / 2);
+		margin-block: 28px;
+		padding-block: 24px;
 		padding-inline: 28px;
 		border-bottom: none;
 
@@ -197,8 +199,10 @@ body {
 
 		img {
 			border-radius: 0 !important;
-			margin: -42px;
-			padding-bottom: 42px;
+			margin-inline: -42px;
+			margin-top: -42px;
+			width: 100vw !important;
+			padding-bottom: 0;
 		}
 	}
 }
