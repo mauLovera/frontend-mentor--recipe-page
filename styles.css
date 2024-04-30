@@ -63,7 +63,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	
-	background-color: var(--neutral-eggshell);
+	background-color: var(--neutral-white);
 	color: var(--neutral-wenge-brown);
 	
 	font-family: "Outfit";
@@ -238,7 +238,7 @@ img {
 
 @media (min-width: 738px) {
 	body {
-		background-color: var(--neutral-white);
+		background-color: var(--neutral-eggshell);
 	}
 
 	.container {
