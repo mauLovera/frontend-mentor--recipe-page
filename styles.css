@@ -76,7 +76,7 @@ body {
 	max-width: 736px;
 	
 	background-color: var(--neutral-white);
-	transition: 0.3s;
+	transition: margin 0.3s;
 }
 
 .image-wrapper {
@@ -237,6 +237,10 @@ img {
 
 
 @media (min-width: 738px) {
+	body {
+		background-color: var(--neutral-white);
+	}
+
 	.container {
 		margin-block: 123px;
 		border-radius: 24px;
